@@ -1,0 +1,24 @@
+.student-dashboard {
+    padding: 20px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .search-filters {
+    margin-bottom: 20px;
+  }
+  
+  .search-filters label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .search-filters select,
+  .search-filters input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px
+  }  

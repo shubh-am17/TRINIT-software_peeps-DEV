@@ -1,0 +1,147 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .landing-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #434a43;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  li {
+    display: flex; /* Make list items horizontal */
+    margin-right: 10px; /* Adjust spacing between list items */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero {
+    display: flex;
+    flex: 1;
+    padding: 10px 30px;
+  }
+
+  .hero-content {
+
+  }
+
+  .hero-image {
+    /* Style your image here */
+    height: 500px;
+    width:400px;
+  }
+
+  .languages {
+    margin-top: auto;
+    /* padding: 20px; */
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+
+  }
+  .languages h3{
+    margin: 1rem;
+
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Position image to the right */
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    width: 50%; /* Adjust width as needed */
+    align-items: center;
+  }
+  
+  .hero-image {
+    width: 50%; /* Adjust width as needed */
+  }
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: solid #4CAF50 ;
+
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+
+  }
+  .already {
+    background-color: #ffffff;
+    color: #5e76ef;
+    padding: 10px 20px;
+    border: solid #4CAF50 ;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  .footer p{
+    font-size: 10px;
+    text-align: center;
+  }
