@@ -1,20 +1,25 @@
 .student-dashboard {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  h1,
-  h2,
-  h3 {
-    margin: 0 0 10px 0;
-  }
+ 
   
   .search-filters {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid gray;
+    padding: 10px;
   }
   
   .search-filters label {
     display: block;
-    margin-bottom: 5px;
+    margin: 50px;
   }
   
   .search-filters select,
@@ -22,3 +27,58 @@
     padding: 5px;
     margin-bottom: 10px
   }  
+
+  .Form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+  }
+
+  input{
+    width: 100px;
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .tutors-list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tutors-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .tutors-list h3 {
+    margin-top: 0;
+  }
+  
+  .tutors-list p {
+    margin-bottom: 5px;
+  }
+  
+  /* */
+  
+  .tutors-list button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,14 +1,106 @@
+/* tutorProfile.css */
+
 .tutor-profile {
-    padding: 20px;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    margin: 0 0 10px 0;
-  }
-  
-  .tutor-profile p {
-    margin-bottom: 5px;
-  }
-  
+  padding: 2rem;
+  margin: 5% auto; /* Center the profile horizontally */
+  max-width: 800px; /* Set a maximum width */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif; /* Use a clean and readable font */
+
+}
+
+.tutor-profile h1,
+.tutor-profile h2,
+.tutor-profile h3 {
+  margin-bottom: 1rem;
+}
+
+.tutor-profile p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5; /* Improve readability */
+}
+
+.tutor-profile .time-slots {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tutor-profile .time-slots li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutor-profile .time-slots li .selected {
+  font-weight: bold;
+  color: green;
+}
+
+
+
+.tutor-profile button:disabled {
+  background-color: #ddd;
+  cursor: default;
+}
+
+.tutor-profile button:hover:not([disabled]) {
+  background-color: #222;
+}
+
+.tutor-profile label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.tutor-profile select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Add custom styling for Stripe Elements */
+.StripeElement {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  transition: box-shadow 150ms ease;
+  /* width: 100%;
+  max-width: 400px; Adjust width as needed */
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+/* Adjust the styles for the error message */
+.error {
+  color: #fa755a;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* ... existing styles */
+label{
+  width: 70%;
+}

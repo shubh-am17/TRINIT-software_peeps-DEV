@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
-import logo from "../assets/logo.png";
 import heroImage from "../assets/hero-image.svg";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../components/Navbar";
 function Home() {
   const navigate = useNavigate();
 
@@ -16,9 +15,7 @@ function Home() {
   }
   return (
     <div className="landing-page">
-      <header className="header">
-        <img src={logo} alt="Language Learning Platform" className="logo" />
-      </header>
+      <Navbar/>
       <main className="main">
         <section className="hero">
           <img src={heroImage} alt="Hero Image" className="hero-image" />
